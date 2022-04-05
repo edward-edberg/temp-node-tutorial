@@ -30,7 +30,7 @@ app.use(
 app.use(express.json());
 app.use(helmet());
 app.use(cors());
-app.use(xssFilter());
+app.use(xss());
 
 // extra packages
 
