@@ -4,7 +4,7 @@ require("express-async-errors");
 // extra security
 const helmet = require("helmet");
 const cors = require("cors");
-const css = require("xss-clean");
+const xss = require("xss-clean");
 const rateLimit = require("express-rate-limit");
 
 const express = require("express");
